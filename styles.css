@@ -1,0 +1,23 @@
+/* adding styles to the mother div so that the div we want to use can be centered and good looking */
+
+.uni{
+    display: flex;
+    justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/* then adding style to te div which contains our content */
+
+.game-main-body{
+    height: 30rem;
+    width: 30rem;
+    background-color: aqua;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
