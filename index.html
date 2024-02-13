@@ -14,6 +14,10 @@
 
     <!-- created a main body div to handle the css and place the main setup in the center -->
     <div class="mother-div">
+        <video autoplay muted loop id="video-bg">
+            <source src="milky_way_glowing_at_night (Original).mp4" type="video/mp4">
+            <!-- Your browser does not support the video tag. -->
+          </video>
         <!-- in this div we will creat another div that contains main elements of the game -->
         <div class="container">
             <!-- in the container we will be adding a header div to keep the heading -->
@@ -28,7 +32,7 @@
                     <!-- we will be adding a p tag to let the user know the rules and limits
                     and a input section where user can insert a number
                     and lastly a submit button to enter users response -->
-                    <p class="form-p">Guess any number between 1-5</p>
+                    <p class="form-p">Guess any number between 1-5:</p>
                     <input class="input-sec" type="number" min="1" max="5">
                     <button class="input-btn">Submit</button>
                 </form>
@@ -39,9 +43,9 @@
 
             <div class="result">
                 <!-- this part contains 3 paragraph each of them will be indicationg number of attempts , number of win and number of loosing -->
-                <p class="pr1">aaaa</p>
-                <p class="pr2">bbbbb</p>
-                <p class="pr3">cccccc</p>
+                <p class="pr1"></p>
+                <p class="pr2"></p>
+                <p class="pr3"></p>
                 
             </div>
         </div>
