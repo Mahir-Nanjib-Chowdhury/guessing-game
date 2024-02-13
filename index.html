@@ -1,32 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- Link to external CSS file -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <!-- Include CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
     <!-- created a main body div to handle the css and place the main setup in the center -->
-    <div class="main-body">
-      <!-- in the mother container i added another container so that i can place the fundamental setup of the game -->
-      <div class="element-holder">
-        <!-- first we need a heading that says the guessing game -->
-        <h1 class="main-heading">Guess the number</h1>
-        <form class="main-form">
-          <!-- then we need a paragraph that explains the game -->
-          <p class="instruction-p">Guess the number between 1 and 5</p>
-           <!-- then we need a box where user might input the number -->
-          <input type="number" min="1" max="5" class="input-box" /> 
-          <!-- then we need a button that submits the input -->
-          <button class="submit-button">submit</button>
-        </form>
-        
-      </div>
+    <div class="mother-div">
+        <!-- in this div we will creat another div that contains main elements of the game -->
+        <div class="container">
+            <!-- in the container we will be adding a header div to keep the heading -->
+            <div class="header">
+                <!-- let us define the game for the user using h1 tag -->
+                <h1 class="head">Guess The Number</h1>
+            </div> 
+                <!-- then we created a div for the form that will use for taking input -->
+            <div class="form">
+                <!-- then we will introduce the main elements in a form -->
+                <form class="main-form">
+                    <!-- we will be adding a p tag to let the user know the rules and limits
+                    and a input section where user can insert a number
+                    and lastly a submit button to enter users response -->
+                    <p class="form-p">Guess any number between 1-5</p>
+                    <input class="input-sec" type="number" min="1" max="5">
+                    <button class="input-btn">Submit</button>
+                </form>
+            </div>
+
+             <!-- then the final part of the game which will indicate the result -->
+
+
+            <div class="result">
+                <!-- this part contains 3 paragraph each of them will be indicationg number of attempts , number of win and number of loosing -->
+                <p class="pr1">a</p>
+                <p class="pr1">a</p>
+                <p class="pr1">a</p>
+            </div>
+        </div>
     </div>
+   
 
-
+    <!-- Include JavaScript file -->
     <script src="java.js"></script>
-  </body>
+</body>
 </html>
