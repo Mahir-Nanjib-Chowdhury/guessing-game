@@ -1,126 +1,129 @@
-.mother-div{
-    /* height: 100vh;
+.mother-div {
+  /* height: 100vh;
     width: 100%; */
-    /* background-color: rgb(198, 217, 195); */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-   
+  /* background-color: rgb(198, 217, 195); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 /* adding video properties */
 
-  #video-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-  }
-  
-  .content {
-    position: relative;
-    z-index: 1;
-    /* Add styles for your content here */
-  }
-  
+#video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  /* Add styles for your content here */
+}
 
 /* adding main container styles */
-.container{
-    height:30rem;
-    width: 40rem;
-    background-color: antiquewhite;
-    opacity: 0.75;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-
+.container {
+  height: 30rem;
+  width: 40rem;
+  background-color: antiquewhite;
+  opacity: 0.75;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 /* header styling  */
-.header{
-    opacity: 2;
-    font-family: honk;
-    font-size: xx-large;
-    margin-bottom: -20px;
-    margin-top: -20px;
-    color: aquamarine;
+.header {
+  opacity: 2;
+  font-family: honk;
+  font-size: xx-large;
+  margin-bottom: -20px;
+  margin-top: -20px;
+  color: aquamarine;
 }
 /* form div styling */
-.form{
-width: 100%;
-  
-   
+.form {
+  width: 100%;
 }
 
 /* main form styling */
-.main-form{
-    /* font-family:Honk; */
-    font-size: large;
-    margin-bottom: 30px;
-    /* color: aquamarine; */
-    text-align: center;
-    display: flex;
+.main-form {
+  /* font-family:Honk; */
+  font-size: large;
+  margin-bottom: 30px;
+  /* color: aquamarine; */
+  text-align: center;
+  display: flex;
   align-items: center;
   justify-content: center;
   /* background-color: #3a86ff */
 }
 /* adjusting the paragrap inside the form */
-.form-p{
-    font-size: larger;
-    margin-right: 10px;
-    margin-left: -10px;
-   
-    font-family: 'Pacifico'
+.form-p {
+  font-size: larger;
+  margin-right: 10px;
+  margin-left: -10px;
+
+  font-family: "Pacifico";
 }
 /* editing input box */
-.input-sec{
-    height: 20px;
-    width: 80px;
-    margin-right: 10px;
-    text-align: center;
-    background-color: #f6bd60;
-    border: none;
-    border-radius: 5px;
-    border: 2px solid black;
-    margin-top: 5px;
-    font-size: large;
-    font-weight: bolder;
-
+.input-sec {
+  height: 20px;
+  width: 80px;
+  margin-right: 10px;
+  text-align: center;
+  background-color: #f6bd60;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin-top: 5px;
+  font-size: large;
+  font-weight: bolder;
 }
-.input-sec:hover{
-    box-shadow: 2px 2px 2px saddlebrown;
+.input-sec:hover {
+  box-shadow: 2px 2px 2px saddlebrown;
 }
 
 /* editing input button */
 
-.input-btn{
-    background-color: #d6ccc2;
-    height: 25px;
-    border-radius: 5px;
-    margin-top: 5px;
-    width: 60px;
-   
+.input-btn {
+  background-color: #d6ccc2;
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 60px;
 }
-.input-btn:hover{
-    background-color: #57cc99;
-    font-weight: bolder;
+.input-btn:hover {
+  background-color: #57cc99;
+  font-weight: bolder;
 }
 /* setting styles for result box */
-.result{
-    /* background-color: blueviolet; */
-    margin-top: -10px;
-    border: 3px solid black;
-    background-color: #989FCE;
-    width: 60%;
+.result {
+  /* background-color: blueviolet; */
+  margin-top: -10px;
+  border: 3px solid black;
+  background-color: #989fce;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: fantasy;
+}
+/* editing footer */
+.foot{
+    /* position:fixed; */
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-family: fantasy;
-    
+   justify-content: end;
+    text-align: right;
+    width: 100%;
+    margin-right: 30px;
+    margin-top: 60px;
+    font-weight: bolder;
 }
