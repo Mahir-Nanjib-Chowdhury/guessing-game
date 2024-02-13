@@ -1,0 +1,18 @@
+/* editing proparties for the main body div */
+
+
+.main-body{
+    background-color: rebeccapurple;
+    height: 50rem;
+    width: 50 rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* we are temporarily setting of the main element holder */
+
+.element-holder{
+    background-color: red;
+    height: 25rem;
+    width: 25rem;
+}
